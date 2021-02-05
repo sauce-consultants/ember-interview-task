@@ -1,7 +1,39 @@
-# fuff-vote
+# FUFF Vote
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This EmberJS project is a simple one page front end application that presents a list of Restaurants/Food Venues and allows people to vote on their favourites.
+
+FUFF (Fucked up Food Friday) is an event the Sauce team ran pre lockdown once a month. It involved picking a local food vendor and stuffing our faces on a Friday afternoon before slipping into a food coma.
+
+## Tasks
+
+We'd like you to clone this repo on your own GitHub account. Make sure it's set to private. Get the app running on your machine and then work through the list of tasks.
+
+- Each task should be submitted to your repo as a pull request before you approve and merge into the master branch.
+- Pull requests should contain a good summary of the code that is being changed and why
+
+### Feature Requests
+
+#### Task 1
+
+The current app presents a link to each venues website. Update the app so these automatically open in a new tab on your browser
+
+#### Task 2
+
+The current app presents venues in the order they were returned from the API. Update the app so Venues are always ordered by the number of votes they have.
+
+The list should update if adding a vote changes the ranking.
+
+The ordering should be done on the client side (ember) not the API.
+
+#### Task 3
+
+The current app will allow you to vote as many times as you want. Limit the user to 5 votes in total, they may vote for the same venue more than once.
+
+This should be reset if the browser page is reloaded, there is no need to maintain state between sessions.
+
+#### Task 4
+
+The user can sometimes vote for the wrong venue by accident. Think of a way to allow them to "undo" a vote and implement this as a feature.
 
 ## Prerequisites
 
@@ -14,7 +46,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone git@github.com:sauce-consultants/ember-interview-task.git` this repository
 * `cd fuff-vote`
 * `npm install`
 
@@ -24,9 +56,10 @@ You will need the following things properly installed on your computer.
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
-### Code Generators
+### Installed Packages
 
-Make use of the many generators for code, try `ember help generate` for more details
+* [EmberCLI Mirage](https://www.ember-cli-mirage.com/) - A client-side server to help you build, test and demo your Ember app by mocking the API.
+* [Ember SVG Jar](https://github.com/ivanvotti/ember-svg-jar) - Visit [http://localhost:4200/ember-svg-jar/index.html](http://localhost:4200/ember-svg-jar/index.html) while your ember app is running to view the svg icons included in the project.
 
 ### Running Tests
 
@@ -39,14 +72,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `npm run lint:js`
 * `npm run lint:js -- --fix`
 
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
