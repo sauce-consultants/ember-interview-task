@@ -1,0 +1,32 @@
+<li class="py-4 flex flex-wrap sm:space-x-4"
+  data-test-venue-item={{@venue.id}}>
+
+  <div class="h-14 w-14 p-1 flex-none rounded-full text-black bg-{{@venue.color}}-300 sm:order-1">
+    {{svg-jar @venue.icon}}
+  </div>
+  <div class="ml-auto h-14 w-14 flex flex-col items-center justify-center sm:order-3">
+    <div class="text-4xl"
+      data-test-venue-votes>
+      {{@venue.votes}}
+    </div>
+  </div>
+  <div class="h-14 w-14 flex flex-col items-center justify-center sm:order-4">
+    <div class="w-6 h-6 p-1 rounded-full flex flex-col items-center justify-center cursor-pointer hover:bg-{{@venue.color}}-200"
+      {{on "click" @onVote}}
+      data-test-venue-vote>
+      {{svg-jar "thumb-up" class="w-5 h-5"}}
+    </div>
+  </div>
+
+  <div class="w-full sm:w-auto flex-auto mt-5 sm:mt-0 sm:order-2">
+    <p class="text-sm font-medium text-gray-900"
+      data-test-venue-name>{{@venue.name}}</p>
+    <p class="text-sm text-gray-500"
+      data-test-venue-cuisine>{{@venue.cuisine}}</p>
+    <p class="text-sm text-gray-500">
+      <a href={{@venue.url}}
+        data-test-venue-url
+        class="cursor-pointer text-{{@venue.color}}-600 hover:text-{{@venue.color}}-800">View Website</a>
+    </p>
+  </div>
+</li>

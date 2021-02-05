@@ -1,0 +1,9 @@
+<svg fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 64 64">
+  <path fill="none" d="M0 0h64v64H0z"/>
+  <path fill="none" stroke="currentColor" stroke-width="2" d="M54.448 33a1.335 1.335 0 011.322 1.534l-.726 4.839A16 16 0 0139.221 53H24.779A16 16 0 018.956 39.373l-.726-4.839A1.335 1.335 0 019.552 33h44.896zM35.903 32.875a4.211 4.211 0 014.209-4.209 4.211 4.211 0 014.209 4.209"/>
+  <path fill="none" stroke="currentColor" stroke-width="2" d="M32.395 32.875a7.72 7.72 0 017.717-7.717 7.72 7.72 0 017.717 7.717"/>
+  <path fill="none" stroke="currentColor" stroke-width="2" d="M29.062 32.875c0-6.099 4.951-11.05 11.05-11.05 6.099 0 11.05 4.951 11.05 11.05"/>
+  <path fill="none" stroke="currentColor" stroke-width="2" d="M13.079 32.875c0-7.46 6.057-13.517 13.517-13.517 3.453 0 6.605 1.298 8.996 3.432"/>
+  <path fill="none" stroke="currentColor" stroke-width="2" d="M17.156 32.875c0-5.21 4.23-9.44 9.44-9.44 2.068 0 3.982.667 5.538 1.797"/>
+  <path fill="none" stroke="currentColor" stroke-width="2" d="M21.447 32.875a5.151 5.151 0 015.149-5.149c1.218 0 2.338.424 3.22 1.133M43 52.503v2.088c0 .639-.254 1.252-.706 1.703a2.406 2.406 0 01-1.703.706H23.409a2.406 2.406 0 01-1.703-.706A2.406 2.406 0 0121 54.591v-2.088M37.466 21.387v-8.733M33.717 21.387v-8.801M58.189 6.705L31.608 13.48M30.994 11.436l27.808 1.09"/>
+</svg>

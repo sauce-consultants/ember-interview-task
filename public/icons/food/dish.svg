@@ -1,0 +1,5 @@
+<svg fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 64 64">
+  <path fill="none" d="M0 0h64v64H0z"/>
+  <path fill="none" stroke="currentColor" stroke-width="2" d="M54.257 45.026a3.117 3.117 0 01-1.546.41h-5.217c-.945 0-1.838.429-2.429 1.165l-.723.901a3.115 3.115 0 01-2.428 1.165H22.086a3.115 3.115 0 01-2.428-1.165l-.723-.901a3.115 3.115 0 00-2.429-1.165h-5.217a3.117 3.117 0 01-1.546-.41A17591.9 17591.9 0 004 41.743h56l-5.743 3.283z"/>
+  <path fill="none" stroke="currentColor" stroke-width="2" d="M57 41.682c0 .081-50 .081-50 0 0-13.798 11.202-25 25-25s25 11.202 25 25zM13 41.697c0-3.34.864-6.48 2.38-9.209M20.294 26.734a19.014 19.014 0 013.97-2.394M32 16.5v-4M37 12.5H27"/>
+</svg>
