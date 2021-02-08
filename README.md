@@ -4,6 +4,8 @@ This EmberJS project is a simple one page front end application that presents a 
 
 FUFF (Fucked up Food Friday) is an event the Sauce team ran pre lockdown once a month. It involved picking a local food vendor and stuffing our faces on a Friday afternoon before slipping into a food coma.
 
+![Screenshot of App](public/screenshot.png "Screenshot of App")
+
 ## Tasks
 
 We'd like you to clone this repo on your own GitHub account. Make sure it's set to private. Get the app running on your machine and then work through the list of tasks.
@@ -60,6 +62,7 @@ You will need the following things properly installed on your computer.
 
 * [EmberCLI Mirage](https://www.ember-cli-mirage.com/) - A client-side server to help you build, test and demo your Ember app by mocking the API.
 * [Ember SVG Jar](https://github.com/ivanvotti/ember-svg-jar) - Visit [http://localhost:4200/ember-svg-jar/index.html](http://localhost:4200/ember-svg-jar/index.html) while your ember app is running to view the svg icons included in the project.
+* [Tailwind CSS](https://tailwindcss.com) - The CDN version of the v2.0 css framework has been included with this app. Refer to the documentation to see all the classes available should you need to make any changes to the layout.
 
 ### Running Tests
 
